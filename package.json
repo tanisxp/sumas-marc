@@ -32,7 +32,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "postinstall": "npm run build",
-  "start": "node server.js",
+  "start": "npm run serve",
   "eslintConfig": {
     "root": true,
     "env": {
