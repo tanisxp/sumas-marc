@@ -1,13 +1,12 @@
 {
   "name": "mysum",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postinstall": "npm run build",
-    "start": "node src/main.js"
+    "start": "npm run serve"
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
