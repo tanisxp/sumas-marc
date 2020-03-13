@@ -8,6 +8,9 @@
     "lint": " node_modules/bin/vue-cli-service lint",
     "start": "npm run serve"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
   "heroku-postinstall": "npm cache clean -f & npm install && npm run build",
   "dependencies": {
     "@mdi/font": "^3.6.95",
