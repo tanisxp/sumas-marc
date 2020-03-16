@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "serve": "./node_modules/\\@vue/cli-service/bin/vue-cli-service serve",
-    "build": "./node_modules/\\@vue/cli-service/bin/vue-cli-service build",
-    "lint": "./node_modules/\\@vue/cli-service/bin/vue-cli-service lint",
+    "serve": "node_modules/@vue/cli-service/bin/vue-cli-service serve",
+    "build": "node_modules/@vue/cli-service/bin/vue-cli-service build",
+    "lint": "node_modules/@vue/cli-service/bin/vue-cli-service lint",
     "start": "node run serve"
   },
   "engines": {
