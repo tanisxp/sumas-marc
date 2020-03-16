@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "serve": "./node_modules/\\@vue/cli-service/bin/vue-cli-service serve",
+    "build": "./node_modules/\\@vue/cli-service/bin/vue-cli-service build",
+    "lint": "./node_modules/\\@vue/cli-service/bin/vue-cli-service lint",
+    "start": "node run serve"
   },
   "heroku-postinstall": "npm install && npm run build",
   "dependencies": {
